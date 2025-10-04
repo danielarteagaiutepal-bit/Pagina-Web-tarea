@@ -1,0 +1,47 @@
+/* Estilos básicos para todo el cuerpo */
+body {
+    font-family: 'Times New Roman', Times, serif; /* fuente */
+    background-color: black; /* fondo de la pagina */
+    color: white;
+
+}
+
+/* Estilos para el encabezado y pie de página */
+header {
+    box-shadow: 0 2px 4px rgba(170, 166, 166, 0.041); /* Sutil sombra para la barra de navegación */
+}
+
+/* Escrutura de encabezado */
+.navbar-brand {
+    font-weight: 'Times New Roman', Times, serif; /* Fuente de encabezado */ 
+    font-size: 1.5rem; /* Tamaño de fuente */
+    color: #FF69B4 ; /* Color */  
+}
+
+/*Color de las demas pestañas sin seleccionar*/ 
+.nav-link { 
+    color: rgba(250, 255, 255, 0.75) ; /* Color */ 
+}
+
+/*Color de titulo encabezado*/ 
+.nav-link.active {
+    color: #FF69B4 ; /* Color activo rosa */
+    font-weight: bold; /*Fuente mas gruesa*/
+}
+/*Sombreo de pestañas al seleccionar*/ 
+.nav-link:hover {
+    color: aliceblue ; /*Color*/
+}
+/* Estilos para el Carrusel */
+#babymetalCarousel .carousel-item img {
+    /* Altura fija para todas las imágenes del carrusel */
+    height: 500px; 
+    /* Asegura que la imagen cubra el área sin estirarse*/
+    object-fit: cover; 
+  }
+
+/* Títulos del carrusel */
+#babymetalCarousel .carousel-caption h5 {
+    color: pink; /* Color rosa de BABYMETAL */
+    font-weight: bold;
+}
